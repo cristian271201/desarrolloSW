@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Software - UTN FRM</title>
+    <style>
+        header,
+        footer {
+            background-color: yellowgreen;
+            padding: 5px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 10px;
+            border: 1px solid grey
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        tfoot {
+            font-weight: bold;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HTML - Trabajo Práctico</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <ul>
+                    <li><a href="#estructura">Estructura</a></li>
+                    <li><a href="#encabezados">Encabezados</a></li>
+                    <li><a href="#multimedia">Multimedia</a></li>
+                    <li><a href="#tablas">Tablas</a></li>
+                    <li><a href="#formulario">Formulario</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div><a name="estructura"></a>
+                <h2> 1. Estructura Básica del Documento HTML</h2>
+                <h4> Este documento HTML tiene una estructura básica que incluye la declaración DOCTYPE, etiquetas de
+                    metadatos
+                    y un título.
+                    <br></br>2024 Trabajo Práctico HTML
+                </h4>
+            </div>
+        </section>
+        <section>
+            <div><a name="encabezados"></a>
+                <h2> 2. Encabezados y Propiedades del Texto</h2>
+                <h2><b>Este es un texto en negrita</b></h2>
+                <h3><i>Este es un texto en cursiva</i></h3>
+                <h4><u>Este es un texto subrayado</u></h4>
+                <h5><mark>Este es un texto resaltado</mark></h5>
+                <h6>Este es un encabezado H6</h6>
+            </div>
+        </section>
+        <section>
+            <h2>3. Divisiones y Agrupación de Contenido</h2>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un div</p>
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>4. Enlaces y Listas</h2>
+                <nav>
+                    <p>Enlaces externos</p>
+                    <ul>
+                        <li><a href="https://www4.frm.utn.edu.ar/" target="_blank"> Ir a página UTN-FRM</a></li>
+                        <li><a href="https://www.google.com" target="_blank"> Ir a Google</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <p>Enlaces internos</p>
+                    <ul>
+                        <li><a href="#estructura">Estructura</a></li>
+                        <li><a href="#encabezados">Encabezados</a></li>
+                        <li><a href="#multimedia">Multimedia</a></li>
+                        <li><a href="#tablas">Tablas</a></li>
+                        <li><a href="#formulario">Formulario</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p>Lista ordenada</p>
+                <ol>
+                    <li>elemento 1</li>
+                    <li>elemento 2</li>
+                    <li>elemento 3</li>
+                </ol>
+                <p>Lista desordenada</p>
+                <ul>
+                    <li>elemento 1</li>
+                    <li>elemento 2</li>
+                    <li>elemento 3</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div><a name="multimedia"></a>
+                <h2>5. Elementos Multimedia</h2>
+                <div>
+                    <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg"
+                        alt="Es una imagen" width="200px" height="150px" />
+                </div>
+                <div>
+                    <video
+                        src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                        controls width="300px" height="250px" />
+                </div>
+                <div>
+                    <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls width="15px"
+                        height="10px" />
+                </div>
+            </div>
+        </section>
+        <section>
+            <div><a name="tablas"></a>
+                <h2>6. Tablas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Columna 1</th>
+                            <th> Columna 2</th>
+                            <th> Columna 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>F1,C1</td>
+                            <td>F1,C2</td>
+                            <td>F1,C3</td>
+                        </tr>
+                        <tr>
+                            <td>F2,C1</td>
+                            <td>F2,C2</td>
+                            <td>F2,C3</td>
+                        </tr>
+                        <tr>
+                            <td>F3,C1</td>
+                            <td>F3,C2</td>
+                            <td>F3,C3</td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>TOTAL C1</td>
+                            <td>TOTAL C2</td>
+                            <td>TOTAL C3</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </section>
+        <section>
+            <div><a name="formulario"></a>
+                <h2>7.Formularios</h2>
+                <form>
+                    <div>
+                        <label>Nombre: </label>
+                        <input type="text" placeholder="Ingrese su nombre" />
+                        <label>Email: </label>
+                        <input type="email" placeholder="ejemplo@ejemplo.com" />
+                        <label>Mensaje: </label>
+                        <input type="text" placeholder="Ingrese su mensaje" />
+                        <button type="submit"> Enviar </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>UTN-FRM-Desarrollo de Software 2024</h2>
+    </footer>
+</body>
+
+</html>
